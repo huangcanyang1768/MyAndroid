@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Name:" />
+
+            <TextView
+                android:id="@+id/author"
+                android:layout_width="122dp"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Author:" />
+
+            <EditText
+                android:id="@+id/page"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                 android:padding="20dp"
+                 android:text="Page:"
+                 />
+
+            <EditText
+                android:id="@+id/price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:padding="20dp"
+                 android:text="Price:"
+                 />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="232dp"
+            android:layout_height="392dp"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/bookname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:padding="20dp"
+                >
+
+                <requestFocus />
+            </EditText>
+            <EditText
+                android:id="@+id/authorname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:padding="20dp"
+                />
+            <EditText
+                android:id="@+id/bookpage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:padding="20dp"
+                />
+            <EditText
+                android:id="@+id/bookprice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:padding="20dp"
+                />
+
+        </LinearLayout>
+          
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"  
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:text="Sumbit" />
+
+    </LinearLayout>
+
+</LinearLayout>
